@@ -1,4 +1,3 @@
-
 import React from 'react';
 import AnimatedSection from './AnimatedSection';
 
@@ -20,7 +19,7 @@ const Gallery: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {images.map((src, index) => (
             <AnimatedSection key={index}>
-              <div className="overflow-hidden rounded-lg shadow-lg aspect-w-1 aspect-h-1 group">
+              <div className="overflow-hidden rounded-lg shadow-lg aspect-square group">
                 <img 
                   src={src} 
                   alt={`Gallery Image ${index + 1}`} 
