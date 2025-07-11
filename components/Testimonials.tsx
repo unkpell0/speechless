@@ -4,19 +4,19 @@ import AnimatedSection from './AnimatedSection';
 
 const testimonials = [
   {
-    quote: "Bibirku belum pernah terasa selembut dan secerah ini. Produk ini benar-benar ajaib! Wajib dimiliki oleh setiap wanita yang peduli penampilan.",
-    name: "Amanda Larasati",
-    title: "Socialita, Jakarta",
+    quote: "Lip serum ini warnanya nyesuaiin kulitmu, bikin bibir tampak sehat, plump, dan tetap nyaman seharian. Trust me, karena aku sangat aware banget soal apapun soal bibir.",
+    name: "Citra Ruli",
+    title: "Master of Ceremony",
   },
   {
-    quote: "Awalnya skeptis, tapi hasilnya melebihi ekspektasi. Garis halus di bibirku berkurang drastis. Sangat merekomendasikannya!",
-    name: "Dewi Putri",
-    title: "Pengusaha Fashion",
+    quote: "Demi apaaaaa ini bagus bgt 🥹❤️ Bikin bibir plumpy abis! WAJIB COBA GUYS!",
+    name: "Emily Young",
+    title: "CEO EMYOUNG",
   },
    {
-    quote: "Kemasan yang mewah dan hasil yang luar biasa. Speechless lip serum menjadi bagian tak terpisahkan dari ritual kecantikanku setiap hari.",
-    name: "Jessica Wijaya",
-    title: "Public Figure",
+    quote: "Aku tuh awalnya ragu, tapi setelah cobain lip serum ini, bibir aku langsung lembab dan warnanya balik lagi, gak ada drama pecah-pecah lagi seharian!",
+    name: "Fanny Margaretha",
+    title: "Public figure",
   },
 ];
 
