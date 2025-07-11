@@ -8,7 +8,7 @@ const About: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
           <div className="md:w-1/2 flex justify-center">
             <img 
-              src="https://i.postimg.cc/L5f2WCW1/imgi-8-1-V1zwr-Ab-Xtly-Se-A3uagp7j-Q.jpg" 
+              src="https://images2.imgbox.com/07/fe/10jqPWBH_o.jpg" 
               alt="Speechless Brilliant Magic Lip Serum Product" 
               className="w-auto h-auto max-w-xs md:max-w-lg rounded-xl shadow-2xl transform md:rotate-[-3deg] hover:rotate-0 transition-transform duration-500"
             />

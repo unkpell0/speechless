@@ -2,10 +2,10 @@ import React from 'react';
 import AnimatedSection from './AnimatedSection';
 
 const images = [
-  'https://i.postimg.cc/6pDskLdV/IMG-20250709-WA0021.jpg',
-  'https://i.postimg.cc/xC2wCfpc/IMG-20250709-WA0024.jpg',
-  'https://i.postimg.cc/VNnymrRx/IMG-20250709-WA0025.jpg',
-  'https://i.postimg.cc/NMkW23Zb/IMG-20250709-WA0026.jpg',
+  'https://images2.imgbox.com/2f/24/ojkGoxr1_o.jpg',
+  'https://images2.imgbox.com/c7/12/F9gxgffH_o.jpg',
+  'https://images2.imgbox.com/61/34/V5kP0z4R_o.jpg',
+  'https://images2.imgbox.com/e2/7c/Jaw3tPKx_o.jpg',
 ];
 
 const Gallery: React.FC = () => {
