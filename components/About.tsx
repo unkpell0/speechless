@@ -15,7 +15,7 @@ const About: React.FC = () => {
           </div>
           <div className="md:w-1/2 text-center md:text-left">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-zinc-800 mb-6">
-              Rahasia di Balik Bibir Memesona
+              Rahasia di Balik Bibir Mempesona
             </h2>
             <p className="text-zinc-600 text-lg mb-4 leading-relaxed">
               Speechless Brilliant Magic Lip Serum dirancang khusus untuk Anda yang mendambakan kesempurnaan. Diformulasikan dengan teknologi canggih dan bahan-bahan premium, serum ini bekerja secara ajaib untuk merevitalisasi dan mempercantik bibir Anda.
