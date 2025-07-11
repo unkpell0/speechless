@@ -9,7 +9,7 @@ import Testimonials from './components/Testimonials';
 import QNA from './components/QNA';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
-import WhatsAppButton from './components/WhatsAppButton';
+import WhatsAppFloatingButton from './components/WhatsAppFloatingButton';
 
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,7 +27,7 @@ const App: React.FC = () => {
         <CTA />
       </main>
       <Footer />
-      <WhatsAppButton isVisible={!isMenuOpen} />
+      <WhatsAppFloatingButton isVisible={!isMenuOpen} />
     </div>
   );
 };

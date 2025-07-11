@@ -5,7 +5,7 @@ interface WhatsAppButtonProps {
   isVisible: boolean;
 }
 
-const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({ isVisible }) => {
+const WhatsAppFloatingButton: React.FC<WhatsAppButtonProps> = ({ isVisible }) => {
   const phoneNumber = '6282130906022';
   const whatsappUrl = `https://wa.me/${phoneNumber}`;
 
@@ -33,4 +33,4 @@ const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({ isVisible }) => {
   );
 };
 
-export default WhatsAppButton;
+export default WhatsAppFloatingButton;
