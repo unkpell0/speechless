@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 
 interface HeaderProps {
@@ -55,7 +54,10 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
               </a>
             ))}
           </nav>
-          <a href="#cta" className="hidden lg:inline-block bg-[#D1B07C] text-white py-2 px-6 rounded-full hover:bg-opacity-90 shadow-lg transition-all duration-300 transform hover:scale-105">
+          <a 
+            href="#cta" 
+            className="hidden lg:inline-block bg-[#D1B07C] text-white py-2 px-6 rounded-full hover:bg-opacity-90 shadow-lg transition-all duration-300 transform hover:scale-105"
+          >
             Beli Sekarang
           </a>
           <button 
@@ -122,7 +124,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
           
           <div className="p-6 border-t border-zinc-200">
               <a 
-                href="#cta" 
+                href="#cta"
                 onClick={handleLinkClick} 
                 className="w-full block bg-gradient-to-r from-[#C8A2C8] to-[#A288A6] text-white text-center py-3 px-8 rounded-full hover:bg-opacity-90 shadow-lg transition-all duration-300 transform hover:scale-105 font-bold"
               >

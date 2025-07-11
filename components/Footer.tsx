@@ -1,6 +1,9 @@
 import React from 'react';
 
 const Footer: React.FC = () => {
+  const phoneNumber = '6282130906022';
+  const whatsappUrl = `https://wa.me/${phoneNumber}`;
+
   return (
     <footer className="bg-zinc-800 text-white">
       <div className="container mx-auto px-6 py-12">
@@ -15,7 +18,7 @@ const Footer: React.FC = () => {
           
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-8">
             <a href="#about" className="text-zinc-400 hover:text-white transition-colors">Tentang</a>
-            <a href="#cta" className="text-zinc-400 hover:text-white transition-colors">Kontak</a>
+            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">Kontak</a>
             <a href="#qna" className="text-zinc-400 hover:text-white transition-colors">FAQ</a>
           </div>
 
