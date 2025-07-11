@@ -9,7 +9,7 @@ import Testimonials from './components/Testimonials';
 import QNA from './components/QNA';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
-import WhatsAppButton from './components/WhatsAppButton';
+import WhatsAppButton from './components/WhatsAppButton.tsx';
 
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
