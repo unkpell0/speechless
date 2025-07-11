@@ -6,6 +6,7 @@ import About from './components/About';
 import Benefits from './components/Benefits';
 import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
+import QNA from './components/QNA';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
 
@@ -19,6 +20,7 @@ const App: React.FC = () => {
         <Benefits />
         <Gallery />
         <Testimonials />
+        <QNA />
         <CTA />
       </main>
       <Footer />

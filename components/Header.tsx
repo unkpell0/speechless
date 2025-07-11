@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 
 const Header: React.FC = () => {
@@ -29,6 +30,7 @@ const Header: React.FC = () => {
     { name: 'Manfaat', href: '#benefits' },
     { name: 'Galeri', href: '#gallery' },
     { name: 'Testimoni', href: '#testimonials' },
+    { name: 'Q&A', href: '#qna' },
   ];
   
   const handleLinkClick = () => {
