@@ -6,7 +6,7 @@ const testimonials = [
   {
     quote: "Lip serum ini warnanya nyesuaiin kulitmu, bikin bibir tampak sehat, plump, dan tetap nyaman seharian. Trust me, karena aku sangat aware banget soal apapun soal bibir.",
     name: "Citra Ruli",
-    title: "Master of Ceremony",
+    title: "Communication & Personal Development Trainer",
     image: "https://images2.imgbox.com/f7/f2/60WU7Rp8_o.jpg",
   },
   {
